@@ -1,0 +1,721 @@
+
+body {
+    color:white;
+    font-size: 30px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+header {
+   height: 940px;
+ }
+/*----------------HEADER NAVIGATION-------------------*/
+
+.navbar{    
+ width:700px;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+.navbar a {
+  padding-left: 50px;
+  color: white;
+   text-decoration: none;
+   font-size: 17px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-weight:900;
+}
+.down {
+    position: relative;
+    bottom:100px;
+    left:40%;
+    width: 300px;
+    height: 40px;
+    /*background: white;*/
+    color:white;
+    font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:900;
+     margin-left: 6%;
+    margin-top: 1%;
+    height: 60px;
+    }
+.down-text{
+    font-size: 16px;
+}
+
+/*BUTTON 2 SECTION*/
+.myBtn2 {
+ 
+  position: absolute;
+  top: 10px;
+  right:72%;
+  z-index: 99;
+  font-size: 33px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+  width: 30px;
+  transform: translate(-50%, -50%);
+   -webkit-transform: rotate(90deg);
+}
+
+.myBtn2:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 655px) {
+header{
+    height: 880px;
+        
+}
+.navbar{
+   width: 100%;
+   margin-top: 200px;
+   margin-left: 25%;
+}
+.navbar a {
+   display: block;
+   font-size:20px;
+}
+header {
+    background: url(slider/33.jpg)60% 100% no-repeat;
+    background-size: cover;
+}
+.slider{
+    display: none;
+}
+.down{
+    position: absolute;
+    top:870px;
+    left:60%;
+    transform: translate(-50%, -50%);
+}
+.myBtn2 {
+ display: none;
+}
+}
+
+
+/*------------------SLIDER-------------------*/
+
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    max-height: 900px;
+    float:left;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+  @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/*MAIN*/
+
+.calling-card{
+     height:  910px;
+    background:white;
+    overflow: hidden;
+  
+    padding-top: 110px;
+    
+}
+
+.foto {
+    display: inline-block;
+    width: 50%;
+    height: 900px;
+   
+    
+ }
+
+.foto-img{
+    margin-top: 30px;
+    margin-left: 30px;
+    border:30px solid #DCDCDC;
+}
+
+.text {
+   width: 50%;
+   float:left;
+   height:700px;
+   color:#999;
+   font-family: sans-serif;  
+    font-size: 21px;
+}
+.text-container{
+   margin: 130px;
+  margin-left: 70px;
+    margin-right: 80px;
+    margin-top:12px;
+        overflow-x: hidden;
+     
+}
+.foto-container{
+    margin: 150px;
+   
+   }
+.calling-card-title{
+     color:#999;
+}
+.calling-card-button{
+    position: relative;
+    bottom:160px;
+    left:40%;
+    width: 100px;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:900;
+    margin-left: 6%;
+    margin-top: 1%;
+    height: 60px;
+}
+/*BUTTON 3 SECTION*/
+.myBtn3 {
+ 
+  position: absolute;
+  top: -80px;
+  left:0px;
+  z-index: 99;
+  font-size: 33px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #777;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+  width: 30px;
+  transform: translate(-50%, -50%);
+   -webkit-transform: rotate(90deg);
+}
+
+.myBtn3:hover {
+  background-color: #555;
+}
+
+
+@media screen and (max-width: 900px) {
+    .text{
+        display:block;
+        float:none;
+        width: 100%;
+        font-size:18px;
+        margin-left: 20px;
+    }
+    .foto img{
+        width: 300px;
+     height: 200px;
+        margin-left: 80px;
+      
+        
+    }
+    .foto{
+        margin-top: 80px;
+    }
+    
+    
+    .calling-card{
+        height: 1200px;
+    }
+}
+
+/*---------PORTFOLIO-------*/
+.row-portfolio{
+    padding-top: 40px;
+}
+
+.portfolio{
+   background: #F5F5F5;  
+   height: 1050px;
+    border:1px solid #DCDCDC;
+
+}
+.portfolio-container{
+    margin-left:260px;
+    margin-right:230px;
+    
+    
+}
+.pt{
+    color:#696969;
+    margin-left:43%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+.foto-container{
+    float:left;
+    width:18%;
+    margin:9px;
+    height: auto;
+    
+}
+/*MODAL IMAGE PORTFOLIO*/
+.foto-portfolio{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.foto-portfolio:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal-portfolio {
+  display: none; 
+  position: fixed; 
+  z-index: 100; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.portfolio-button{
+    position: relative;
+    top:800px;
+    left:40%;
+    width: 100px;
+    height: 40px;
+   
+    color:white;
+    font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:900;
+     margin-left: 6%;
+    margin-top: 1%;
+    height: 60px;
+}
+/*BUTTON 3 SECTION*/
+.myBtn4 {
+ 
+  position: absolute;
+  top: -20px;
+  left:0px;
+  z-index: 99;
+  font-size: 33px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #777;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 4px;
+  width: 30px;
+  transform: translate(-50%, -50%);
+   -webkit-transform: rotate(90deg);
+}
+
+.myBtn4:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 900px) {
+.myBtn4 {
+    display: none;
+    }
+    
+    
+    .foto-container{
+       
+        float:none;
+        width: 100%;
+            
+    }
+    .portfolio-container{
+    margin-left:90px;
+    margin-right:0px;
+       
+       
+     
+}
+    .pt{
+       margin-left:25%; 
+    };
+}
+
+/*----------FOOTER---------*/
+footer{
+    height: auto;
+    background: white;
+    color:#777;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:900;
+    }
+.top{
+    height: 50px;
+}
+.contact{
+    height: 250px;
+    padding-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:black;
+    overflow: hidden;
+    border-bottom:1px solid#999;
+    
+}
+.phone{
+    height: 230px;
+    width: 33%;
+    float: left;
+    border-right:1px solid#999;
+    overflow: hidden; 
+}
+
+.social{
+    height: 230px;
+    width: 33%;
+    float: left;
+    border-right:1px solid#999;
+    overflow: hidden;
+}
+
+.sign-up{
+    height: 230px;
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.bottom{
+    height: 90px;
+    position: relative;
+     
+}
+/*BUTTON UP*/
+.myBtn {
+  position: absolute;
+  bottom: 15px;
+  left:8%;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #777;;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: rotate(-90deg);
+}
+
+.myBtn:hover {
+  background-color: red;
+}
+
+.contact-list{
+    list-style: none;
+     font-size:14px;
+    }
+
+.signup-title{
+    font-size:18px;
+    margin-left: 170px;
+}
+.icon{
+    margin-left: 21%;  
+}
+
+.contact-title{
+    font-size:18px;
+    margin-left: 100px;
+}
+.social-network{
+    font-size:18px;
+    margin-left: 150px;
+}
+
+.button-up{
+    margin-left: 47%;
+}
+
+.contact-title, .signup-title, .social-network, .contact-list{
+    color:#777;
+}
+
+@media screen and (max-width: 900px) {
+   footer {
+        position: absolute;
+       top:7800px;
+       height: 900px;
+      
+}
+    .phone,.social,.sign-up{
+       float:none;
+        width: 100%; 
+        margin-left: 40px;
+    }
+    .contact{
+         height: 900px;
+    }
+    .contact-title{
+        margin-left: 120px; 
+    }
+    .contact-list{
+        margin-left: 50px; 
+    }
+    .social-network{
+       margin-left: 90px; 
+    }
+    .icon{
+  margin-left: 37px;  
+}
+    .signup-title{
+    margin-left: 100px;
+}
+    
+    .top{
+        height: 0px;
+    }
+    .btn-write{
+        margin-left: 130px;
+    }
+    .button-up{
+    margin-left: 39%;
+}
+    .bottom{
+       
+       display: none;
+    }
+}
+
+
+/*----------------sign up-------------------*/
+
+input[type=text], input[type=password] {
+  width: 98%;
+  padding: 15px;
+  margin: 4px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+textarea{
+   width: 98%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+    
+}
+
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #999;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+    margin-left: 40%;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+.signupbtn {
+width: 100%;
+margin-left: 1px;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 100; 
+    left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #474e5d;
+  padding-top: 50px;
+    background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.7);
+    overflow-y: hidden;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+    
+}
+
+
+.hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 900px) {
+   button {
+       margin-left: 90px;
+    }
+    
+      
+}
+
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}
+ 
+
+

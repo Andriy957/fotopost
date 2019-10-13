@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+      margin:0;
+}
+
+.photo-collage{
+height: auto;  
+}
+
+header{
+    height: 100px;
+ 
+    
+}
+.navbar{    
+ width:700px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.navbar a {
+  padding-left: 50px;
+  color: black;
+   text-decoration: none;
+   font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-weight:900;
+}
+@media screen and (max-width: 655px) {
+    .navbar{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30%;
+            
+    }
+  .navbar a {
+ display: block;
+      font-size:14px;
+      color:black;
+    }
+  
+        
+    .box{
+        display: none;
+    }
+   
+    
+}
+
+.wedding{
+    height: 839px;
+    width: 33.33%;
+    float:left;
+}
+.love-story{
+    height: 839px;
+    width: 33.33%;
+    float:left;
+   
+}
+.reportage{
+    height: 839px;
+    width: 33.34%;
+    float:left;
+}
+
+.wedding-text{
+height: 839px;
+width: 300px;
+margin-left: 120px;
+  font-family: "Open Sans",Helvetica,Verdana,"Lucida Grande",sans-serif;
+    font-size:16px;
+}
+.wedding-text2{
+height: 839px;
+width: 300px;
+margin-left: 120px;
+    margin-top: 65px;
+    font-family: "Open Sans",Helvetica,Verdana,"Lucida Grande",sans-serif;
+    font-size:16px;
+    
+}
+.wedding-text3{
+height: 839px;
+width: 300px;
+margin-left: 120px;
+    margin-top: 65px;
+    font-family: "Open Sans",Helvetica,Verdana,"Lucida Grande",sans-serif;
+    font-size:16px;
+}
+
+
+.price-title{
+margin-left: 120px;
+}
+p {
+    margin-top: 0.1em; 
+    margin-bottom: 0.1em; 
+   }
+
+@media screen and (max-width: 900px) {
+    .wedding{
+    height: 500px;
+    width: 33.33%;
+     float:none;
+}
+.love-story{
+    height: 500px;
+    width: 33.33%;
+     float:none;
+   
+}
+.reportage{
+     height: 500px;
+    width: 33.34%;
+    float:none;
+}
+    
+}
+
+

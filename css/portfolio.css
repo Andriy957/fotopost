@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+      margin:0;
+}
+
+.wrapper-portfolio{
+height: auto;
+  
+    
+}
+
+header{
+    height: 100px;
+ 
+    
+}
+
+.navbar{    
+  width:700px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.navbar a {
+  padding-left: 50px;
+  color: black;
+   text-decoration: none;
+   font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-weight:900;
+}
+@media screen and (max-width: 655px) {
+    .navbar{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30%;
+            
+    }
+  .navbar a {
+      display: block;
+      font-size:14px;
+      color:black;
+    }
+  
+.box{
+        display: none;
+    }
+    
+}
+
+
+.pair{
+    height: 400px;
+    width: 50%;
+    float:left;
+   
+
+       
+}
+.pair2{
+    height: 400px;
+    width: 50%;
+    float:left;
+  
+  
+}
+.pair3{
+    height: 400px;
+    width: 50%;
+    float:left;
+   
+ 
+}
+.pair4{
+    height: 400px;
+    width: 50%;
+    float:left;
+
+}
+
+#link{
+    margin-left: 100px;
+    }
+#link2{
+    margin-left: 200px;
+    }
+
+.pair-title2,.pair-title4{
+  margin-left: 250px;
+    color:#696969;
+    text-decoration: none;
+    font-size:22px;
+    }  
+.pair-title1,.pair-title3{
+  margin-left: 350px;
+    color:#696969;
+    text-decoration: none;
+    font-size:22px;
+    }  
+
+@media screen and (max-width: 900px) {
+    .pair,.pair2,.pair3,.pair4{
+        display:block;
+        float:none;
+        width: 100%;
+            
+    }
+    .pair-title1,.pair-title2,.pair-title3,.pair-title4{
+  margin-left: 170px;
+    
+    }  
+    #link{
+    margin-left: 10px;
+    }
+#link2{
+    margin-left: 10px;
+    }
+}

@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+      margin:0;
+}
+
+.photo-collage{
+height: auto;
+  }
+
+header{
+    height: 100px;
+ 
+    
+}
+.navbar{    
+ width:700px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.navbar a {
+  padding-left: 50px;
+  color: black;
+   text-decoration: none;
+   font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-weight:900;
+}
+@media screen and (max-width: 655px) {
+    .navbar{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30%;
+            
+    }
+  .navbar a {
+ display: block;
+      font-size:14px;
+      color:black;
+    }
+  
+        
+    .box{
+        display: none;
+    }
+   
+    
+}
+
+
+
+/*sign-up*/
+input[type=text], input[type=password] {
+  width: 98%;
+  padding: 15px;
+  margin: 3px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+    
+
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+textarea{
+   width: 98%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signupbtn {
+width: 98%;
+
+}
+
+.container {
+  padding: 16px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin-left: 630px;
+  
+  width: 400px; 
+}
+.head-title{
+    margin-left: 730px;
+}
+
+.title  {
+    margin-left: 610px;
+    
+   
+}
+.contacts{
+ margin-left: 705px;
+
+}
+.name{
+ margin-left: 700px;   
+}
+@media screen and (max-width: 900px) {
+    .modal-content {
+  background-color: #fefefe;
+  margin-left: 50px;
+  width: 400px;
+
+}
+    .head-title{
+    margin-left: 65px;
+}
+    .title  {
+    margin-left: 65px;
+        width: 300px;
+    }
+    .contacts{
+ margin-left: 65px;   
+}
+    .name{
+ margin-left: 65px;   
+}
+
+}
+
